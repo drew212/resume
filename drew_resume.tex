@@ -1,0 +1,203 @@
+% ------------------------------------------------------------------- %
+% Licensed under the Creative Commons Attribution 3.0 Unported
+%   Created by Alessandro
+%   Modified by Drew Cross <mstngdrew212@gmail.com>
+% ------------------------------------------------------------------- %
+
+\documentclass[10pt]{article}
+
+\usepackage[hmargin=1.25cm, vmargin=1.5cm]{geometry}
+\usepackage{bbding}
+\usepackage{amssymb}
+\usepackage{eurosym}
+\usepackage{color,graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{hyperref}
+
+% Email color
+\definecolor{linkcolour}{HTML}{0000FF}
+% Light Blue
+\definecolor{shade}{HTML}{D4D7FE}
+% Nearly black
+\definecolor{text1}{HTML}{2b2b2b}
+% Maroon
+\definecolor{headings}{HTML}{701112}
+
+\hypersetup{colorlinks,breaklinks,
+            urlcolor=linkcolour,
+            linkcolor=linkcolour}
+
+\usepackage{fancyhdr}               %custom footer
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+
+\usepackage{titlesec}               %custom \section
+
+\titleformat{\section}
+    {\color{headings}
+        \scshape\Large\raggedright}{}{0em}{}[\color{black}\titlerule]
+
+\titlespacing{\section}{0pt}{0pt}{5pt}
+
+
+
+%fonts
+
+\begin{document}
+
+\color{text1}
+
+%   <<<< TITLE >>>>
+    \par{\centering
+        {\sffamily\Huge Drew Cross
+    }\\[10pt]
+    \par{\centering
+    \hrule
+    \\[35pt]
+
+
+%START of left-hand side minipage
+\begin{minipage}[t]{0.5\textwidth} 
+    \vspace{0pt}
+
+
+
+\section{Education}
+
+\begin{tabular}{rl}
+
+    % EDUCATION -1-
+    \textsc{May} 2013 & \textbf{University of Illinois}, Champaign \\
+     & Bachelor of Science - Computer Science \\
+& (Expected) \\[5pt]
+
+    % EDUCATION -2-
+     \textsc{May} 2010 & \textbf{Black Hawk College}, Moline\\
+     & Associate of Science - Engineering Transfer\\
+
+
+\end{tabular}\\[10pt]
+
+
+% <<<< NEW SECTION >>>>
+\section{Coursework In Computer Science}
+    \raggedright
+    \textsc{\textbf{Completed Courses:}}\\[1pt]
+    CS 125: Introduction to Computer Science\\
+    CS 173: Discreet Structures\\
+    CS 231: Computer Architecture \\
+    CS 225: Data Structures \\[10pt]
+    \textsc{\textbf{Currently Enrolled Courses:}}\\[1pt]
+    CS 241: Systems Programming\\
+    CS 232: Computer Architecture II \\
+    CS 411: Database Systems \\[15pt]
+
+
+% <<<< NEW SECTION >>>>
+\section{Work Experience}
+
+    \raggedleft
+    \textsc{\normalsize Summer 2012}\par
+    \raggedright\large \textsc{Intern - Software Development Engineer in Test} \\
+    \emph{Microsoft Corporation} - Seattle, WA \\[5pt]
+
+    \normalsize{ Worked on Windows Server testing the Hypervisor subsystem. \\[10pt]
+    }
+
+    % WORK EXPERIENCE -1-
+    \raggedleft
+    \textsc{\normalsize January 2011 - Present}\par
+    \raggedright\large \textsc{Intern - IT/Systems} \\
+    \emph{State Farm Insurance} - Champaign, IL \\[5pt]
+
+    \normalsize{
+    Researched and developed new and innovative ways to improve the insurance industry
+    through technology and software. Extensive focus on computer vision and augmented reality.
+    Frequently worked with OpenCV and Point Cloud Library. \\[10pt]
+    }
+
+    % WORK EXPERIENCE -3-
+    \raggedleft
+    \textsc{\normalsize July 2004 - August 2010}\par
+    \raggedright\large \textsc{Shift Manager} \\
+    \emph{McDonald's Corporation} - Geneseo, IL \\[5pt]
+
+    \normalsize{
+    Responsibilities included: Systems efficiency, financial logistics,
+    supply logistics, and personnel logistics.\\[10pt]
+    }
+
+
+%END of left-hand side minipage
+\end{minipage}
+\hfill
+%START of right-hand side minipage
+\begin{minipage}[t]{0.44\textwidth}
+    \vspace{0pt}
+
+\colorbox{shade}{\textcolor{text1}{
+    \begin{tabular}{c|p{7cm}}
+        \raisebox{-3pt}{\Phone}         &(217) 550-1960\\
+        \raisebox{-3pt}{\Envelope}  &\href{mailto:ddcross2@illinois.edu}
+                                {ddcross2@illinois.edu}
+    \end{tabular}
+    }
+}\\[10pt]
+
+
+% <<<< NEW SECTION >>>>
+\section{Projects and Awards}
+
+    \raggedleft{\textsc{Current}}\par\raggedright
+    Developing my own operating system from the ground up as a solo project. \\[5pt]
+
+    \raggedleft{\textsc{August 2011}}\par\raggedright
+    Outstanding intern finalist for The University of Illinois Research and Development park.
+    Nominated by management for outstanding leadership.\\[5pt]
+
+
+    \raggedleft{\textsc{Summer 2011}}\par\raggedright
+    Member of a two person team that was tasked to increase the accuracy rates of a computer vision
+    and recognition algorithm for State Farm. \\[5pt]
+
+    \raggedleft{\textsc{Summer 2011}}\par\raggedright
+    Project Lead for a seven member team researching augmented reality for State Farm.\\[10pt]
+
+
+
+% <<<< NEW SECTION >>>>
+\section{Memberships}
+\textbf{Ubuntu Bugcontrol Member} \\[5pt]
+Debugged issues related to the Mozilla Firefox web browser.
+Gathered relevant information from users to aid in the debugging process.
+\\[10pt]
+
+
+\textbf{Association for Computing Machinery} \\[5pt]
+Active member and volunteer.\\
+Chair of SIGSoft - Special interest group for software engineering.
+\\[15pt]
+
+
+
+
+% <<<< NEW SECTION >>>>
+\section{Computer Skills}
+
+    \begin{tabular}{rl}
+    Intermediate Knowledge: & C/C++ , Java, \textsc{Linux}, \\ 
+                            & Windows\\
+    \\
+    Basic Knowledge:& OpenCV, PCL, Android, \\
+                    & Subversion, Visual Studio, \\
+                    & Eclipse, Git, {\LaTeX}, \\
+                    & x86 and MIPS Assembly ISA \\
+    \end{tabular}
+
+
+
+
+\end{minipage} %END of right-hand side minipage
+
+\end{document}

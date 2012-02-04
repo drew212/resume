@@ -1,0 +1,10 @@
+Creating a PDF:
+Use make:
+make pdf
+
+Dependencies:
+rubber
+texlive-latex-extra
+texlive-fonts-extra
+texlive-fonts-recommended
+latex-xcolor
