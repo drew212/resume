@@ -1,3 +1,5 @@
+Original Author: Alessandro Plasmati, modified to compile in linux/windows.
+
 Creating a PDF:
 Use make:
 make pdf
